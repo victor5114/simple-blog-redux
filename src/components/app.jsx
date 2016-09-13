@@ -1,6 +1,12 @@
-
 import React from 'react';
 
-const App = () => <div>React simple starter</div>;
+const App = (props) =>
+  <div>
+    {props.children}
+  </div>;
+
+App.propTypes = {
+  children: React.PropTypes.object.isRequired,
+};
 
 export default App;
