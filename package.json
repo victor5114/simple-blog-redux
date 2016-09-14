@@ -1,16 +1,15 @@
 {
-  "name": "redux-simple-starter",
+  "name": "simple-blog-redux",
   "version": "1.0.0",
-  "description": "Simple starter package for Redux with React and Babel support",
+  "description": "Simple blog app with redux",
   "main": "index.js",
-  "repository": "git@github.com:StephenGrider/ReduxSimpleStarter.git",
+  "repository": "git@github.com:victor5114/simple-blog-redux.git",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
     "test:watch": "npm run test -- --watch"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Victor Pongnian",
   "devDependencies": {
     "babel-core": "^6.2.1",
     "babel-eslint": "^6.1.2",
